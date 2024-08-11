@@ -18,6 +18,7 @@
 ; a b c count <- 4 9 25 2
 ; a b c count <- 9 25 _ 1
 ; a b c count <- 25 _ _ 0 
+; how do you get to this in your head?
 (define (f-iter n)
   (f-iter-inner 0 1 2 n)
 )
