@@ -1,4 +1,4 @@
-(define (fib n)
+(define (fib-normal n)
   (cond
     ((= n 0) 0)
     ((= n 1) 1)
